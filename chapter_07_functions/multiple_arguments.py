@@ -1,6 +1,7 @@
 def make_burger(*ingredients):
     print('\nMaking burger with the following ingredients: ')
-    print(f'- {ingredients}')
+    for ingredient in ingredients:
+        print(f'- {ingredient}')
 
 make_burger('ham', 'salad', 'tomato', 'sauce')
 make_burger('chicken', 'cucumber')
