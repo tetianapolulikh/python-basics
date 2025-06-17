@@ -10,7 +10,7 @@ def show_printed_messages(printed_messages):
      for printed_message in printed_messages:
           print(printed_message)
 
-list_of_messages = ['You look great today!', 'You’ve got this!', 'Make it happen!', 'Believe in yourself!', 'Stay strong!']
+list_of_messages = ['You look great today!', 'You’ve got this!', 'Make it happen!', 'Believe in yourself!', 'Stay strong!', 'One step at a time']
 printed_messages = []
 
 print_message(list_of_messages, printed_messages)
